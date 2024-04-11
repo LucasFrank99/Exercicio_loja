@@ -1,0 +1,125 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Roboto, sans-serif;
+}
+
+.topo {
+   max-width: 1024px;
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-decoration: underline;
+}
+
+.principal h2 {
+   font-size: 3em;
+   display: flex;
+   justify-content: center;
+   padding-top: 36px;
+   padding-bottom: 16px;
+}
+
+
+
+.principal img {
+   max-width: 100%;
+   width: 750px;
+   margin-left: 16em;
+   
+}
+
+.principal h3 {
+   position: absolute;
+   display: flex;
+   top: 30%;
+   left: 40%;
+   margin-right: 30px;
+   margin-left: 30px;
+   line-break: normal;
+}
+
+
+header {
+   position: relative;
+   padding: 16px 0;
+   border-bottom: 2px solid #0a07c5;
+}
+
+.carros {
+   max-width: 100%;
+   position: absolute;
+   left: 5%;
+   right: 2%;
+   display: grid;
+   grid-template-columns: repeat(3, 32.6%);
+   column-gap: 1%;
+   
+}
+
+.carros img {
+   height: 60%;
+   margin: 36px 26px 36px 26px;
+   width: 90%;
+   
+}
+
+.carros ul {
+   position: relative;
+   left: 7%;
+}
+
+main {
+   background-color: rgb(204, 202, 202);
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+   .principal img {
+      display: flex;
+      max-width: 50%;
+      margin-left: 16em;
+      position: relative;
+   }
+
+   .principal h3 {
+   position: relative;
+   left: 5px;
+   }
+}
+
+
+@media screen and (max-width: 640px) {
+   .veiculos  {
+      display: block;
+  }
+  .veiculos .carros {
+      margin-bottom: 32px;
+  }
+  .principal img {
+   display: flex;
+   position: relative;
+   max-width: 100%;
+   margin-left: 1em;
+
+}
+
+.principal {
+   display: block;
+}
+
+.container {
+   flex-direction: column;
+
+}
+.principal h3 {
+   position: relative;
+   max-width: 100%;
+   align-items: center;
+   left: 10px;
+   margin-top: 36px;
+}
+}
